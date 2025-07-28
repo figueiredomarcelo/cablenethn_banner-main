@@ -1,7 +1,7 @@
 import * as senza from "senza-sdk";
 
 let options = {
-  "url": getParam("url", "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd"),
+  "url": getParam("url", "https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd"),
   "licenseServer": getParam("licenseServer", null),
   "autoBackground": getParam("autoBackground", "true") == "true",
   "delay": Number(getParam("delay", 15)),
