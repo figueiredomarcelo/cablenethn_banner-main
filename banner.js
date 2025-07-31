@@ -1,7 +1,7 @@
 import * as senza from "senza-sdk";
 
 let options = {
-  "url": getParam("url", "http://45.190.187.103:4020/MultiTVHD/index.mpd"),
+  "url": getParam("url", "https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd"),
   "licenseServer": getParam("licenseServer", null),
   "autoBackground": getParam("autoBackground", "true") == "true",
   "delay": Number(getParam("delay", 15)),
