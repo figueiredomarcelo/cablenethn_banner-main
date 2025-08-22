@@ -1,7 +1,7 @@
 import * as senza from "senza-sdk";
 
 let options = {
-  "url": getParam("url", "https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd"),
+  "url": getParam("url", "http://streaming.cnetplay.com/NAS/CONTENIDO_NUEVO_2025/Happy_Gilmore_2_2025.mp4/index.mpd"),
   "licenseServer": getParam("licenseServer", null),
   "autoBackground": getParam("autoBackground", "true") == "true",
   "delay": Number(getParam("delay", 15)),
